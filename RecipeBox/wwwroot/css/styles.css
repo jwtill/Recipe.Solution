@@ -1,0 +1,109 @@
+@font-face {
+  font-family: DeathStar-VmWB;
+  src: url('../fonts/DeathStar-VmWB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: url("../img/Jaawa.webp");
+  background-size: 100%;
+  background-position: 0% 20%; 
+  font-family: 'Libre Franklin', sans-serif; 
+}
+
+h1 {
+  color: black;
+  background-color: #FFDD16;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  opacity:.9;
+  font-family: 'DeathStar-VmWB';
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'DeathStar-VmWB';
+}
+
+form {
+  padding: 20px;
+  margin: 20px;
+}
+label{
+  margin-right: 10px;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+.input {
+  color: red;
+  height: 2em;
+}
+
+ ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 17%;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  position: fixed;
+  left: 0;
+  top: 100px;
+  height: auto;
+  overflow: auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity:.8;
+  font-family: 'DeathStar-VmWB';
+}
+
+.menu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom:1px solid #E7E7E7;
+}
+
+.menu li a.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+.menu li a:hover:not(.active) {
+  background-color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  
+}
+input.btn-submit {
+  padding: 6px 16px;
+  border: 1px solid #446d88;
+  background: #58a linear-gradient(#77a0bb, #58a);
+  border-radius: 4px;
+  box-shadow: 0 1px 5px gray;
+  color: white;
+}
+.main {
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 5px;
+  opacity: .9;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  border-top:1px solid black;
+  opacity: .6;
+  position: fixed;
+  bottom: 0;
+}
