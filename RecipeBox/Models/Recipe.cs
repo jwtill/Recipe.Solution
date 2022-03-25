@@ -18,4 +18,3 @@ namespace RecipeBox.Models
 }
 
 
-@model IEnumerable<RecipeBox.Models.Recipe>;

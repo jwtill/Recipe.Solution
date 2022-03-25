@@ -1,44 +1,44 @@
-@font-face {
-  font-family: DeathStar-VmWB;
-  src: url('../fonts/DeathStar-VmWB.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 body {
-  background-image: url("../img/Jaawa.webp");
-  background-size: 100%;
-  background-position: 0% 20%; 
+  background-color: lightblue;
   font-family: 'Libre Franklin', sans-serif; 
 }
 
 h1 {
   color: black;
-  background-color: #FFDD16;
+  background: linear-gradient(90deg, rgba(173,216,230,1) 0%,rgba(255,255,255,1) 50%,rgba(173,216,230,1) 100%);
   padding: 15px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #d3d3d3;
   text-align: center;
-  opacity:.9;
-  font-family: 'DeathStar-VmWB';
 }
 h2 {
+  color: black;
+  background: linear-gradient(90deg, rgba(173,216,230,1) 0%,rgba(255,255,255,1) 50%,rgba(173,216,230,1) 100%);
+  padding: 15px;
+  border-bottom: 1px solid #d3d3d3;
   text-align: center;
-  color: white;
-  font-family: 'DeathStar-VmWB';
 }
 
 form {
   padding: 20px;
-  margin: 20px;
+  margin: auto;
+  width: 50%;
+  display:block;
+
 }
 label{
-  margin-right: 10px;
+  margin: 10px;
 }
 li {
   list-style-type: none;
   padding: 10px;
 }
+.main textarea {
+    width: 100%;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+}
 .input {
-  color: red;
   height: 2em;
 }
 
@@ -88,6 +88,7 @@ input.btn-submit {
   border-radius: 4px;
   box-shadow: 0 1px 5px gray;
   color: white;
+  margin: 10px;
 }
 .main {
   width: 40%;
